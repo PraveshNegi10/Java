@@ -19,7 +19,9 @@ public class MainClass {
     {
         cat cat1 = new cat();
         cat cat2 = new cat();
+        cat cat3 = new cat();
         cat1.walk();
         cat2.eat();
+        cat3.walk();
     }
 }
