@@ -11,6 +11,10 @@ class cat{
     {
         System.out.println("Cat is eating:");
     }
+    public void description()
+    {
+        System.out.println("My cat has "+legs+" legs and "+eyes+" eyes");
+    }
 
 }
 
@@ -19,9 +23,13 @@ public class MainClass {
     {
         cat cat1 = new cat();
         cat cat2 = new cat();
-        cat cat3 = new cat();
+        cat1.legs=3;
+        cat1.eyes=2;
+
         cat1.walk();
         cat2.eat();
-        cat3.walk();
+        cat1.description();
+        cat2.description();
+
     }
 }
